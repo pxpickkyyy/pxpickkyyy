@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 130" width="100%">
+  <style>
+    @keyframes frame1 {
+      0%, 20% { opacity: 1; }
+      20.1%, 100% { opacity: 0; }
+    }
+    @keyframes frame2 {
+      0%, 20% { opacity: 0; }
+      20.1%, 40% { opacity: 1; }
+      40.1%, 100% { opacity: 0; }
+    }
+    @keyframes frame3 {
+      0%, 40% { opacity: 0; }
+      40.1%, 60% { opacity: 1; }
+      60.1%, 100% { opacity: 0; }
+    }
+    @keyframes frame4 {
+      0%, 60% { opacity: 0; }
+      60.1%, 100% { opacity: 1; }
+    }
+    @keyframes pulse {
+      0%, 100% { filter: drop-shadow(0 0 2px rgba(168, 85, 247, 0.4)); }
+      50% { filter: drop-shadow(0 0 10px rgba(192, 132, 252, 0.8)); }
+    }
+    .ascii {
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 18px;
+      font-weight: 900;
+      white-space: pre;
+    }
+    .color-purple { fill: #c084fc; }
+    .color-light { fill: #e879f9; }
+    .color-white { fill: #ffffff; }
+    .terminal-text {
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 14px;
+      fill: #a855f7;
+    }
+    .glow-group {
+      animation: pulse 2s infinite;
+    }
+  </style>
+
+  <!-- Frame 1: Terminal Booting -->
+  <g class="ascii" style="animation: frame1 5s infinite;">
+    <text x="50%" y="45" text-anchor="middle" class="terminal-text">&gt; sys.init()</text>
+    <text x="50%" y="75" text-anchor="middle" class="terminal-text">████░░░░░░░░░░░░ 25% Loading...</text>
+  </g>
+
+  <!-- Frame 2: Decoding -->
+  <g class="ascii" style="animation: frame2 5s infinite;">
+    <text x="50%" y="45" text-anchor="middle" class="terminal-text">&gt; decrypting_identity...</text>
+    <text x="50%" y="75" text-anchor="middle" class="terminal-text">██████████░░░░░░ 65% Decrypted...</text>
+  </g>
+
+  <!-- Frame 3: Access Granted -->
+  <g class="ascii" style="animation: frame3 5s infinite;">
+    <text x="50%" y="45" text-anchor="middle" class="terminal-text">&gt; access_granted()</text>
+    <text x="50%" y="75" text-anchor="middle" class="terminal-text">████████████████ 100% Done.</text>
+  </g>
+
+  <!-- Frame 4: Final ASCII Banner with Glow -->
+  <g class="ascii glow-group" style="animation: frame4 5s infinite;">
+    <text x="50%" y="30" text-anchor="middle" class="color-purple"> █▀█ █ █▀▀ █ █ </text>
+    <text x="50%" y="55" text-anchor="middle" class="color-light"> █▀▀ █ █▄▄ █▀█ </text>
+    <text x="50%" y="80" text-anchor="middle" class="color-white"> ▀   ▀ ▀▀▀ ▀ ▀ </text>
+    <text x="50%" y="105" text-anchor="middle" class="terminal-text" style="font-size: 11px; fill: #d8b4fe; font-weight: 500;">[ CREATIVE CODING &amp; GAME DEV ]</text>
+  </g>
+</svg>
