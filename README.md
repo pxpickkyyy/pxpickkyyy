@@ -16,6 +16,13 @@
   </p>
 </div>
 
+<!-- Custom Cyber-Console Widget -->
+<div align="center">
+  <img src="console.svg" alt="Cyber Console Dashboard" width="100%" />
+</div>
+
+<br />
+
 <!-- Real-time Lanyard Discord / Spotify Status Widget -->
 <div align="center">
   <a href="https://discord.com/users/691908529929322558" target="_blank">
@@ -64,7 +71,7 @@
       <p>Helloo! My name is Pich (Peach). =w= 🎀</p>
       <ul>
         <li>☕ Just a regular guy who loves coding and doing some dumb stuff!</li>
-        <li>🚫 Not in a relationship cuz I'm scared of women... 😅</li>
+        <li>💖 In a loving relationship with <b>Dhanzel Kate (DK)</b>. ✨</li>
         <li>🎨 Passionate about 3D modeling, game development, and hardware hacking.</li>
       </ul>
     </td>
@@ -127,14 +134,14 @@
     </td>
     <!-- Card 3 -->
     <td width="33.3%" valign="top">
-      <table width="100%" style="background-color: #05050a; border: 1px solid #4c1d95; border-radius: 10px; padding: 15px; height: 180px;">
+      <table width="100%" style="background-color: #05050a; border: 1px solid #db2777; border-radius: 10px; padding: 15px; height: 180px;">
         <tr>
           <td valign="top">
-            <h4 style="color: #c084fc; margin-top: 0; margin-bottom: 8px;">🧩 VisBlocks</h4>
-            <p style="color: #e2e8f0; font-size: 13px; margin: 0; min-height: 70px;">A visual, block-based coding environment for designing logic flow and micro-interactions.</p>
+            <h4 style="color: #f472b6; margin-top: 0; margin-bottom: 8px;">💖 DK Project</h4>
+            <p style="color: #e2e8f0; font-size: 13px; margin: 0; min-height: 70px;">A special creative development project built for Dhanzel Kate, combining interactive visual modules and shared memories.</p>
             <br />
-            <span style="background-color: #3b0764; color: #d8b4fe; padding: 3px 8px; border-radius: 12px; font-size: 11px;">JavaScript</span>
-            <span style="background-color: #3b0764; color: #d8b4fe; padding: 3px 8px; border-radius: 12px; font-size: 11px;">Web</span>
+            <span style="background-color: #9d174d; color: #fbcfe8; padding: 3px 8px; border-radius: 12px; font-size: 11px;">Unity / C#</span>
+            <span style="background-color: #9d174d; color: #fbcfe8; padding: 3px 8px; border-radius: 12px; font-size: 11px;">Creative</span>
           </td>
         </tr>
       </table>
