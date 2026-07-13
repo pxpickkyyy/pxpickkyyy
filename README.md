@@ -16,6 +16,13 @@
   </p>
 </div>
 
+<!-- Real-time Lanyard Discord / Spotify Status Widget -->
+<div align="center">
+  <a href="https://discord.com/users/691908529929322558" target="_blank">
+    <img src="https://lanyard.cnrad.dev/api/691908529929322558?theme=dark&bg=05050a&borderRadius=10px" alt="Discord Status" />
+  </a>
+</div>
+
 <!-- Custom Purple Gradient Divider -->
 <p align="center">
   <svg width="100%" height="2" viewBox="0 0 100 2" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -30,11 +37,29 @@
   </svg>
 </p>
 
-<!-- Two Column Dashboard Layout -->
+<!-- Terminal Spec Dashboard -->
+<div align="center">
+  <img src="terminal.svg" alt="Terminal Dashboard" width="100%" style="border-radius: 8px;" />
+</div>
+
+<!-- Custom Purple Gradient Divider -->
+<p align="center">
+  <svg width="100%" height="2" viewBox="0 0 100 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <line y1="1" x2="100" y2="1" stroke="url(#paint0_linear)" stroke-width="2"/>
+    <defs>
+      <linearGradient id="paint0_linear" x1="0" y1="0" x2="100" y2="0" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#a855f7" stop-opacity="0"/>
+        <stop offset="0.5" stop-color="#c084fc"/>
+        <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+  </svg>
+</p>
+
+<!-- About Section -->
 <table width="100%" border="0" cellpadding="10" cellspacing="0">
   <tr>
-    <!-- Left Column: About Me -->
-    <td width="55%" valign="top">
+    <td valign="top">
       <h3>💫 About Me</h3>
       <p>Helloo! My name is Pich (Peach). =w= 🎀</p>
       <ul>
@@ -42,32 +67,14 @@
         <li>🚫 Not in a relationship cuz I'm scared of women... 😅</li>
         <li>🎨 Passionate about 3D modeling, game development, and hardware hacking.</li>
       </ul>
-      <br />
+    </td>
+    <td valign="top">
       <h3>⚡ Current Focus</h3>
       <ul>
         <li>🛸 Exploring advanced shaders and graphic programming with <b>OpenGL</b>.</li>
         <li>🎮 Building custom tools and physics engines in <b>Unity</b> and <b>Unreal</b>.</li>
         <li>🔌 Integrating microcontrollers with <b>Arduino</b> and <b>Raspberry Pi</b>.</li>
       </ul>
-    </td>
-    <!-- Right Column: Terminal Status Card -->
-    <td width="45%" valign="top" align="center">
-      <table width="100%" style="background-color: #0b0914; border: 1px solid #4c1d95; border-radius: 12px; padding: 15px;">
-        <tr>
-          <td align="left">
-            <h4 style="color: #c084fc; margin-top: 0;">📟 system_status.sh</h4>
-            <code style="color: #e2e8f0; font-family: monospace; font-size: 13px;">
-              $ query --user pich<br />
-              &gt; status: active<br />
-              &gt; coffee_level: 85%<br />
-              &gt; current_mood: 👾 coding<br />
-              &gt; fear_of_women: 99.9% 🚫<br />
-              &gt; active_projects: 4<br />
-              &gt; location: Thailand 🇹🇭
-            </code>
-          </td>
-        </tr>
-      </table>
     </td>
   </tr>
 </table>
@@ -92,7 +99,7 @@
   <tr>
     <!-- Card 1 -->
     <td width="33.3%" valign="top">
-      <table width="100%" style="background-color: #0b0914; border: 1px solid #4c1d95; border-radius: 10px; padding: 15px; height: 180px;">
+      <table width="100%" style="background-color: #05050a; border: 1px solid #4c1d95; border-radius: 10px; padding: 15px; height: 180px;">
         <tr>
           <td valign="top">
             <h4 style="color: #c084fc; margin-top: 0; margin-bottom: 8px;">🌌 NocturnalLLM</h4>
@@ -106,7 +113,7 @@
     </td>
     <!-- Card 2 -->
     <td width="33.3%" valign="top">
-      <table width="100%" style="background-color: #0b0914; border: 1px solid #4c1d95; border-radius: 10px; padding: 15px; height: 180px;">
+      <table width="100%" style="background-color: #05050a; border: 1px solid #4c1d95; border-radius: 10px; padding: 15px; height: 180px;">
         <tr>
           <td valign="top">
             <h4 style="color: #c084fc; margin-top: 0; margin-bottom: 8px;">📓 Smart AI Notes</h4>
@@ -120,7 +127,7 @@
     </td>
     <!-- Card 3 -->
     <td width="33.3%" valign="top">
-      <table width="100%" style="background-color: #0b0914; border: 1px solid #4c1d95; border-radius: 10px; padding: 15px; height: 180px;">
+      <table width="100%" style="background-color: #05050a; border: 1px solid #4c1d95; border-radius: 10px; padding: 15px; height: 180px;">
         <tr>
           <td valign="top">
             <h4 style="color: #c084fc; margin-top: 0; margin-bottom: 8px;">🧩 VisBlocks</h4>
@@ -240,7 +247,7 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=pickkyyy&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api?username=pickkyyy&bg_color=05050a&title_color=c084fc&text_color=e2e8f0&icon_color=c084fc&border_color=3b0764&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
     </td>
     <td align="center" valign="top">
       <img src="https://nirzak-streak-stats.vercel.app/?user=pickkyyy&theme=midnight-purple&hide_border=false" alt="GitHub Streak" />
@@ -248,7 +255,7 @@
   </tr>
   <tr>
     <td align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pickkyyy&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pickkyyy&layout=compact&bg_color=05050a&title_color=c084fc&text_color=e2e8f0&icon_color=c084fc&border_color=3b0764&hide_border=false&include_all_commits=true&count_private=true" alt="Top Languages" />
     </td>
     <td align="center" valign="top">
       <img src="https://github-contributor-stats.vercel.app/api?username=pickkyyy&limit=5&theme=midnight-purple&combine_all_yearly_contributions=true" alt="Top Contributed Repo" />

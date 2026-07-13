@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180" width="100%">
+  <style>
+    .window {
+      fill: #06060c;
+      stroke: #3b0764;
+      stroke-width: 1.5;
+      rx: 8;
+    }
+    .header {
+      fill: #0b0914;
+      stroke: #3b0764;
+      stroke-width: 1.5;
+    }
+    .btn-red { fill: #ef4444; }
+    .btn-yellow { fill: #eab308; }
+    .btn-green { fill: #22c55e; }
+    .title {
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 11px;
+      fill: #a78bfa;
+      font-weight: bold;
+    }
+    .code {
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 12px;
+      fill: #e2e8f0;
+    }
+    .prompt { fill: #c084fc; font-weight: bold; }
+    .command { fill: #ffffff; }
+    .meta-key { fill: #a855f7; }
+    .meta-val { fill: #e879f9; }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor {
+      fill: #a855f7;
+      animation: blink 1s infinite;
+    }
+  </style>
+
+  <!-- Window Frame -->
+  <rect class="window" width="598" height="178" x="1" y="1" />
+  
+  <!-- Header Bar -->
+  <path class="header" d="M 1 8 A 7 7 0 0 1 8 1 L 590 1 A 7 7 0 0 1 597 8 L 597 25 L 1 25 Z" />
+  
+  <!-- Window Controls -->
+  <circle class="btn-red" cx="15" cy="13" r="5" />
+  <circle class="btn-yellow" cx="30" cy="13" r="5" />
+  <circle class="btn-green" cx="45" cy="13" r="5" />
+  
+  <!-- Window Title -->
+  <text class="title" x="50%" y="17" text-anchor="middle">pich@localhost: ~/profile</text>
+
+  <!-- Terminal Code Content -->
+  <g class="code" transform="translate(15, 45)">
+    <!-- Line 1 -->
+    <text x="0" y="0">
+      <tspan class="prompt">pich@localhost:~$ </tspan>
+      <tspan class="command">neofetch</tspan>
+    </text>
+    
+    <!-- Line 2 -->
+    <text x="0" y="20">
+      <tspan class="meta-key">OS</tspan>: <tspan class="meta-val">Custom Windows Kernel (Scared of Women Edition)</tspan>
+    </text>
+
+    <!-- Line 3 -->
+    <text x="0" y="40">
+      <tspan class="meta-key">Hobbies</tspan>: <tspan class="meta-val">Coding, Drawing, Making dumb stuff, Coffee drinking</tspan>
+    </text>
+
+    <!-- Line 4 -->
+    <text x="0" y="60">
+      <tspan class="meta-key">Hardware</tspan>: <tspan class="meta-val">NVIDIA GPU, AMD CPU, Arduino/Raspberry Pi for IoT</tspan>
+    </text>
+
+    <!-- Line 5 -->
+    <text x="0" y="80">
+      <tspan class="meta-key">Core Skill</tspan>: <tspan class="meta-val">Turning coffee into creative code and visual experiences</tspan>
+    </text>
+
+    <!-- Line 6 -->
+    <text x="0" y="100">
+      <tspan class="prompt">pich@localhost:~$ </tspan>
+      <tspan class="command">npm run dev</tspan>
+      <rect class="cursor" x="145" y="-10" width="8" height="14" />
+    </text>
+  </g>
+</svg>
